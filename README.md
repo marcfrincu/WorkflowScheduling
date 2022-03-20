@@ -1,5 +1,7 @@
 # WorkflowScheduling in Python
 
+## Description
+
 I worked on this project while doing my postdoc at University of Strasbourg between 2012-2013. The entire code is written in Python and allows users to simulate various workflow scheduling algorithms for cloud systems.
 
 The particular setup used AWS and per hour billing (still in use at that time).
@@ -10,4 +12,9 @@ The code also allows to export workflows to be used by the [SimSchlouder](https:
 
 To run the code see *experiments.py* file. Some basic configuration is explained in *config.py*.
 
-Results were published in the [Computing journal (2014)](https://dl.acm.org/doi/10.1007/s00607-014-0410-0) and [IPDPS Workshops (2013)](https://ieeexplore.ieee.org/document/6651116).
+## Published papers
+
+Results were published in:
+
+- M. Frincu, S. Genaud, J. Gossa,  [On the efficiency of several VM provisioning strategies for workflows with multi-threaded tasks on clouds](https://dl.acm.org/doi/10.1007/s00607-014-0410-0), Computing, vol 96(11), pp. 1059–1086, 2014.
+- M. Frincu, S. Genaud, J. Gossa, [Comparing Provisioning and Scheduling Strategies for Workflows on Clouds](https://ieeexplore.ieee.org/document/6651116), Procs. IEEE IPDPS Workshops, 2013.
